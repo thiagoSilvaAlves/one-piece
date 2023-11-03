@@ -22,6 +22,12 @@
 
     .conteudo .descricao {
         max-width: 500px;
+        max-height: 132px;
+        overflow-y: scroll;
+        margin-bottom: 10px;
+    }
+    ::-webkit-scrollbar {
+        display: none;
     }
 
     .botoes {
@@ -32,18 +38,26 @@
     }
 
     .botoes .botao img {
-        max-width: 60px;
+        max-width: 40px;
     }
 
     .menu-lateral{
         min-height: auto;
         margin-top: 10px;
     }
+
+    .menu-lateral ul{
+        flex-direction: row;
+    }
+
+    .menu-lateral .icone{
+        width: 20px;
+    }
 }
 
 @media (max-width: 425px) {
     main .personagem .imagem {
-        height: auto;
+        height: 73%;
     }
 
     .conteudo .logo {
@@ -52,19 +66,26 @@
     }
 
     .conteudo {
-        top: -30%;
+        justify-content: flex-end;
+        left: 0;
+        padding: 10px 20px;
     }
 
     .conteudo .nome-personagem {
         font-size: 24px;
     }
 
+    .conteudo .descricao {
+        max-width: 330px;
+    }
+
     .botoes {
         padding: 20px;
-        top: -20%;
+        top: -10%;
     }
 
     .botoes .botao img {
-        max-width: 50px;
+        max-width: 27px;
+        max-height: 29px;
     }
 }
