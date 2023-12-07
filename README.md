@@ -14,12 +14,12 @@
 
 - Desktop:
   <p align="center">
-    <img src="./src/Design/op-desktop-version.gif"
+    <img src="./src/Design/op-desktop-version.gif" alt="Projeto One-Piece - Versão Desktop">
   </p>
 
 - Mobile:
   <p align="center">
-    <img src="./src/Design/op-mobile-version.gif" alt="Projeto Spider-Verse - Versão Mobile">
+    <img src="./src/Design/op-mobile-version.gif" alt="Projeto One-Piece - Versão Mobile">
   <p>
 
 ### Link do Projeto: <a href="https://github.com/thiagoSilvaAlves/one-piece" target="_blank">https://github.com/thiagoSilvaAlves/one-piece</a>
